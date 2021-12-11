@@ -39,7 +39,7 @@
 
   <name>RocketChat Notifier</name>
   <artifactId>rocketchatnotifier</artifactId>
-  <version>1.4.10</version>
+  <version>1.4.10.0.cosium-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <licenses>
@@ -130,6 +130,10 @@
         <version>${maven-release-plugin.version}</version>
         <configuration>
           <tagNameFormat>rocketchatnotifier-@{project.version}</tagNameFormat>
+          <pushChanges>false</pushChanges>
+          <localCheckout>true</localCheckout>
+          <!-- Goals run during the prepare step. Default value is clean verify which does 2 builds during a release -->
+          <preparationGoals>clean</preparationGoals>
         </configuration>
       </plugin>
       <plugin>
