@@ -13,7 +13,7 @@
     <java.level>8</java.level>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <failsafeArgLine/>
+    <failsafeArgLine />
     <skipITs>false</skipITs>
     <!-- Project Libs-->
     <httpclient.version>4.5.13</httpclient.version>
@@ -39,7 +39,7 @@
 
   <name>RocketChat Notifier</name>
   <artifactId>rocketchatnotifier</artifactId>
-  <version>1.4.10.0.cosium-SNAPSHOT</version>
+  <version>1.4.10.0.cosium</version>
   <packaging>hpi</packaging>
 
   <licenses>
@@ -398,4 +398,8 @@
       <url>https://repo.jenkins-ci.org/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+
+  <scm>
+    <tag>rocketchatnotifier-1.4.10.0.cosium</tag>
+  </scm>
 </project>
