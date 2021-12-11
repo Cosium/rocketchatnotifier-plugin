@@ -39,7 +39,7 @@
 
   <name>RocketChat Notifier</name>
   <artifactId>rocketchatnotifier</artifactId>
-  <version>1.4.10.0.cosium</version>
+  <version>1.4.10.1.cosium-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <licenses>
@@ -398,8 +398,4 @@
       <url>https://repo.jenkins-ci.org/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
-
-  <scm>
-    <tag>rocketchatnotifier-1.4.10.0.cosium</tag>
-  </scm>
 </project>
